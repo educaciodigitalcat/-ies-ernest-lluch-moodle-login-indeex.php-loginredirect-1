@@ -207,8 +207,7 @@ require(['core/prefetch'])
 ;
 require(["media_videojs/loader"], function(loader) {
     loader.setUp('ca');
-});;
-M.util.js_pending('filter_mathjaxloader/loader'); require(['filter_mathjaxloader/loader'], function(amd) {amd.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\",\r\n    TeX: { extensions: [\"AMSmath.js\",\"AMSsymbols.js\",\"mhchem.js\",\"noErrors.js\",\"noUndefined.js\"] },\r\n});","lang":"ca"}); M.util.js_complete('filter_mathjaxloader/loader');});;
+
 
 require(['theme_boost/footer-popover'], function(FooterPopover) {
     FooterPopover.init();
